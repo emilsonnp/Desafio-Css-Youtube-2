@@ -64,3 +64,25 @@ header {
     cursor: pointer;
 
 }
+.siderbar {
+    background-color: #ffffff;
+    width: 240px;
+    height: 100vh;
+    position: fixed;
+    top: 56px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0px;
+    border-right: 2px solid #ffffff;
+}
+.video-grid {
+    margin-left: 245px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 10px;
+    /* border: 2px solid #d11212   ; */
+}
